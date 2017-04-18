@@ -1,0 +1,11 @@
+commit f93236a8dcc995f87d171319557ed56939a17ef3
+Author: Natasha Moroz <nata.m.moroz@gmail.com>
+Date:   Tue Apr 18 08:04:27 2017 +0300
+
+    add status.txt
+
+commit f02e83ab64eb9abfce6f71815033b02ae29e40dd
+Author: Natasha Moroz <nata.m.moroz@gmail.com>
+Date:   Tue Apr 18 08:02:13 2017 +0300
+
+    add .gitignore
