@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fresh News</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img class="logo-img" src="http://pngimg.com/uploads/orange/orange_PNG801.png">
+    <button id="logo">FreshNews </button>
+    <button id="login-button" type="button">Войти</button>
+    <button class="add-news" type="button">Добавить новость</button>
+    <p class="username"></p>
+
+    <div class="fixing"></div>
+
+</header>
+
+<div class="content" id="article-list">
+
+</div>
+
+
+<div class="filter">
+    <div class="block-filter">
+        <div class="name-filter">Поиск новости</div>
+        <p class="search-options">Автор:</p>
+        <input class="find-author">
+        <div class="fixing"></div>
+        <p class="search-options">Дата:</p>
+        <input class="find-date" type="date">
+
+        <div class="fixing"></div>
+        <button class="apply-button" type="button">Применить</button>
+
+
+    </div>
+
+</div>
+
+<!-- templates -->
+<div id='template-news'>
+    <div id="page-news">
+        <p class="page-name"> </p>
+        <br>
+        <img class="imgNews" src="https://previews.123rf.com/images/a2bb5s/a2bb5s1204/a2bb5s120400071/13303629-The-newspaper-LATEST-NEWS-with-the-headline-GOOD-NEWS-and-coffee-Stock-Photo.jpg">
+        <p class="summary"></p>
+        <p class="all-text-news"> </p>
+        <p class="text-author2"> </p>
+        <p class="text-date2"></p>
+        <div class="fixing"></div>
+        <button class="delete2" type="button"> Удалить</button>
+        <button class="redacte2" type="button"> Редактировать</button>
+        <br>
+        <div class="fixing"></div>
+    </div>
+</div>
+
+<div class="fixing"></div>
+<div id="redacte-form">
+    <p class="informetion">Заполните/редактируйте следующее</p>
+    <p class="zapolnenie"> Название статьи
+        <textarea class="r-title" maxlength="100" type="text" size="50" ></textarea>
+    </p>
+
+    <p class="zapolnenie"> Краткое содержание статьи
+        <textarea class="r-summary"  maxlength="200" type="text" size="50" ></textarea>
+    </p>
+
+    <p class="zapolnenie"> Ссылка на изображение
+        <textarea class="r-img" type="text"  size="50" > </textarea>
+    </p>
+
+    <p class="zapolnenie"> Текст статьи
+        <textarea class="r-content" type="text" size="50" > </textarea>
+    </p>
+    <input class="r-data"  value="25.02.2015" readonly>
+    <input class="r-author"  value=" кристина " readonly>
+    <button class="apply" type="button">Применить</button>
+</div>
+<div class="fixing"></div>
+<div id="redacte-form2">
+    <p class="informetion">Заполните/редактируйте следующее</p>
+    <p class="zapolnenie"> Название статьи
+        <textarea class="r-title" maxlength="100" type="text" size="50" ></textarea>
+    </p>
+
+    <p class="zapolnenie"> Краткое содержание статьи
+        <textarea class="r-summary"  maxlength="200" type="text" size="50" ></textarea>
+    </p>
+
+    <p class="zapolnenie"> Ссылка на изображение
+        <textarea class="r-img" type="text"  size="50" > </textarea>
+    </p>
+
+    <p class="zapolnenie"> Текст статьи
+        <textarea class="r-content" type="text" size="50" > </textarea>
+    </p>
+    <input class="r-data"  value="25.02.2015" readonly>
+    <input class="r-author"  value=" кристина " readonly>
+    <button class="apply2" type="button">Применить</button>
+</div>
+
+
+
+
+<p id="hello-world">Добро пожаловать на FreshNews</p>
+<div class="content3">
+    <p class="login-user">Логин</p>
+    <input  class="text-login" size="37">
+    <p class="login-user">Пароль</p>
+    <input  type="password" class="text-pass" size="37">
+    <button class="enter-button">Войти</button>
+</div>
+
+
+<div class="work_with-error">
+    <p class="text-error">Ошибка! Вернитесь на</p>
+    <button class="button-error">FreshNews</button>
+</div>
+<div class="fixing"></div>
+
+<div class = "content2">
+
+</div>
+<div class="fixing"></div>
+
+
+<div class="pagination-bar">
+    <button id="pagination-show-more">Показать ещё</button>
+</div>
+
+
+<!-- templates -->
+<div id='template-article-list-item'>
+    <div class="block" data-id="0">
+        <p class="name"> </p>
+        <img class="img-news" src="http://xafari.ru/wp-content/uploads/2014/09/news-icon.jpg">
+        <p class="text-news"> </p>
+        <p class="all"></p>
+        <p class="text-author"> </p>
+        <p class="text-date"> </p>
+        <button class="more" type="button">Подробнее...</button>
+        <div class="fixing"></div>
+        <button class="delete" type="button"> Удалить</button>
+        <button class="redacte" type="button"> Редактировать</button>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+</div>
+<div class="fixing"></div>
+<footer>
+    <div class="info-bar"><span>FreshNews</span>
+        <span>Наташа Мороз</span>
+        <span>2 курс 5 группа</span>
+        <span>nata.m.moroz@gmail.com</span>
+    </div>
+</footer>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
